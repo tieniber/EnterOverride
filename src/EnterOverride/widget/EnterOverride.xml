@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="EnterOverride.widget.EnterOverride" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>EnterOverride</name>
+    <description>Overrides the enter key with the tab action.</description>
+    <icon>
+	iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAAGXRFWHRTb2Z0d2Fy
+	ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAl1JREFUeNpi/P//PwMIMJ9jtf0vwPCp
+	ASCAGFFEfrx90QAQQAy+LXv+//nz5//fv3/BNFzJtJVH/r9495UBIIDgAjDA5Ne6
+	9/+/f//gmAkkunzLUYbX778wlPWtY2DaVO3M+Or9NwZxYT6GF+9/MwAEENgWkA3o
+	GGQjCLOAjAho38+wvsIBbMnKbccZvnz/xfDnzz+GKG8LBgaQK2B46pLd/5dsOf4f
+	aP3/Jy8//K+euuM/hjMzmlf8Z+PgYnj19jNDeqARA0AAYShABywgB4EYjIyMYAGQ
+	Bhj7w4cPDCwwDkwSmQabANMBom/ff8Zw/MIdhp9AH0iJ8jPYGikzsAR2HICrDtZm
+	ZZCWFGb4x8DE8Oj5B4Zz158yoDhy/d6z/3//+c8Q5m4Cig2GExfv/2RCdvGjFx8Z
+	Pn/7w3Di0gOGBy8+M5hryzCgKOBkZWa4fOcFw+JtFxlevX7HkB3tyAEQYIyguGCg
+	BMCSDHqkwpIRtgiG8d+9e/efCd1AmKeRwxcXAKllgYcQMLUgx9Kte08Z9p28xsDL
+	w8nAB8TAxMrw5+8/ho9ffjA8ffmBQVacnyHUw5QBZ1qYvXr/fyEBbgZGIGRhYWHw
+	czRkePHmE8OBM7cZXr77AkzhXxm4WBl+suBy3rcffxi4fv5n+PnrNwMr2z+wmLgw
+	L4OavDjDQ2AUffv5l+Hlq0+4XbB216n/Jy4/YRAXFWRgYmQCJh0+hpuP3jB8+vab
+	4dOX7wx/fv5gqEh0ZMCbnN9/+Lzv3LWHVgfP32e4ef8tAxcHC4ORhhSDu7Umg6gQ
+	T4QgP+8GAHyJg9Cg4LMbAAAAAElFTkSuQmCC
+    </icon>
+    <properties>
+        <property key="delay" type="integer" required="true" defaultValue="100">
+            <caption>Delay</caption>
+            <category>Behavior</category>
+            <description>Delay before first on change microflow is triggered in milliseconds.</description> 
+        </property>
+    </properties>
+</widget>
